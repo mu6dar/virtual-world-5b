@@ -1,36 +1,4 @@
-/*
-* Box Theme
-* Created by : Ahmed Eissa
-* website : www.ahmedessa.net
-* behance : https://www.behance.net/3essa
-*/
-
-
-/* Table of Content
-==================================================
-	- Google fonts & font family -
-	- General -
-    - typography -
-    - Preloader -
-	- Header -
-    - box intro section -
-    - Portfoilo section -
-    - Footer -
-    - About page -
-    - Services page -
-    - contact page -
-    - Portfolio single page -
-    - Responsive media queries -
-*/
-
-
-/* Google fonts & font family
-==================================================*/
-
 @import url(https://fonts.googleapis.com/css?family=Poppins:400,500,600,700);
-
-/* General
-==================================================*/
 
 html,
 body {
@@ -80,10 +48,6 @@ a {
     font-size: 11px;
 }
 
-
-/* typography
-==================================================*/
-
 h1 {
     color: #393939;
     font-size: 60px;
@@ -98,10 +62,6 @@ h5 {
     color: #ffbf00;
 }
 
-
-/* preloader
-==================================================*/
-
 #preloader {
     position: fixed;
     top: 0;
@@ -109,9 +69,7 @@ h5 {
     right: 0;
     bottom: 0;
     background-color: #f5f5f5;
-    /* change if the mask should be a color other than white */
     z-index: 1000;
-    /* makes sure it stays on top */
 }
 
 .pre-container {
@@ -172,10 +130,6 @@ h5 {
         -webkit-transform: scale(1.0);
     }
 }
-
-
-/* headr
-==================================================*/
 
 .box-header {
     position: absolute;
@@ -417,10 +371,6 @@ h5 {
     font-size: 18px;
 }
 
-
-/* box-intro
-==================================================*/
-
 .box-intro {
     text-align: center;
     display: table;
@@ -448,9 +398,6 @@ b i:last-child {
     color: #999;
     line-height: 1.7
 }
-
-
-/* mouse effect */
 
 .mouse {
     position: absolute;
@@ -523,9 +470,6 @@ b i:last-child {
         transform: translateY(20px);
     }
 }
-
-
-/* text rotate */
 
 .box-headline {
     font-size: 130px;
@@ -681,10 +625,6 @@ b i:last-child {
     }
 }
 
-
-/* portfolio section
-==================================================*/
-
 .portfolio .categories-grid span {
     font-size: 30px;
     margin-bottom: 30px;
@@ -819,10 +759,6 @@ b i:last-child {
     padding-top: 55px;
 }
 
-
-/* footer
-==================================================*/
-
 footer {
     padding: 30px 0;
     text-align: center;
@@ -837,10 +773,6 @@ footer {
 footer img {
     margin: 0 auto;
 }
-
-
-/* backto top
-==================================================*/
 
 .cd-top {
     display: inline-block;
@@ -868,7 +800,6 @@ footer img {
 }
 
 .cd-top.cd-is-visible {
-    /* the button becomes visible */
     visibility: visible;
     opacity: 1;
 }
@@ -883,10 +814,6 @@ footer img {
     opacity: 1;
     color: #fff;
 }
-
-
-/* About page
-==================================================*/
 
 .top-bar {
     color: #333;
@@ -946,10 +873,6 @@ footer img {
     color: #888;
 }
 
-
-/* Services page
-==================================================*/
-
 .size-50 {
     font-size: 50px;
 }
@@ -961,10 +884,6 @@ footer img {
 .service-box h3 {
     margin-top: 0;
 }
-
-
-/* contact page
-==================================================*/
 
 .details-text i {
     margin-right: 10px;
@@ -1092,10 +1011,6 @@ textarea:focus {
     color: #fff;
 }
 
-
-/* single project page
-==================================================*/
-
 .cat-ul {
     padding-left: 0;
     list-style: none
@@ -1105,10 +1020,6 @@ textarea:focus {
     margin-right: 10px;
     color: #ffbf00;
 }
-
-
-/* Responsive media queries
-==================================================*/
 
 @media (max-width: 991px) {
     .portfolio .categories-grid span {
